@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const moment = require('./node_modules/moment'); // For date handling.
+const moment = require('moment'); // For date handling.
 
 let Schema = mongoose.Schema;
 
