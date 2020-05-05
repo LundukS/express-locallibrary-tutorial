@@ -3,3 +3,9 @@
   padding: 0;
   list-style: none;
 }
+p{
+  color: blue;
+}
+body{
+  background-color: burlywood;
+}
