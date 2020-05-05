@@ -31,6 +31,7 @@ AuthorSchema.virtual('url').get(function() {
 
 AuthorSchema.virtual('lifespan').get(function() {
   let lifetime_string = '';
+  
   if (this.date_of_birth) {
     lifetime_string = moment(this.date_of_birth).format('MMMM Do, YYYY');
   }
